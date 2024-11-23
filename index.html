@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <title>O cavalo e o caminho perdido</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.jpg" alt="">
+            <p>Um dia desses, dentro de um campo tranquilo perto da minha casa, encontrei um cavalo solitário, com uma pelagem dourada que brilhava sob o sol. Ao me aproximar, percebi que ele estava marcado com o símbolos Misteriosos, como se tivesse uma história pra contar. Ele parecia me convidar a segui-lo, e sem pensar duas vezes, decidi acompanhá-lo pela floresta.!</p>
+            <button class="btn-proximo" data-proximo="1">montar no cavalo e partir em aventura</button>
+            <button class="btn-proximo" data-proximo="2">deixar o cavalo sair sozinho</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começa sua jornada, montando em um cavalo ao amanhecer, em busca da primeira pista que o levará até o mistério dele escondido nas profundezas da floresta. </p>
+            <button class="btn-proximo" data-proximo="3">Procurar a pista pela floresta</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>O cavalo o guia até um altar antigo feito de pedras cobertas de musgo, que parece guardar segredos ancestrais. Ao atravessá-lo, o cenário muda, revelando um rio cristalino com uma cachoeira majestosa.  Na margem você encontra um barco com uma vela dourada onde está escrito, "Suba a bordo. Este rio guiará você à verdade." Antes de embarcar, você sente que há algo mais a descobrir naquele lugar. por onde você começa?</p>
+            <button class="btn-proximo" data-proximo="5">seguir direto para o barco.</button>
+            <button class="btn-proximo" data-proximo="6">Explorar o altar em busca de inscrições ou pistas escondidas.</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Após explorar o altar em busca de pista, você percebe que não há outra escolha a não ser confiar no desconhecido. O barco com a vela dourada parece ser a única resposta. </p>
+            <button class="btn-proximo" data-proximo="7"> ir para o barco.</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.webp" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria
+                encontrado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Após a travessia silenciosa do rio, você chega a uma nova margem e encontra um altar com um mapa gravado, destacando o local marcando por montanhas e um vale misterioso. A inscrição no altar diz que sua próxima resposta aguarda nesse vale, onde a luz e sombra se encontram. O cavalo, como se soubesse o caminho, relincha novamente, e você decide montá-lo para seguir ao enigma que o espera.</p>
+            <button class="btn-proximo" data-proximo="7">ir com o cavalo</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando o altar, você encontra uma carta, mas nela não há nada.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e seguir direto para o barco. </button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>No rio, a busca pela verdade se intensifica. Você se depara com um rio bifurcado.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo rio à esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pelo rio à direita</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta ao barco, você finalmente encontra na vela as palavras gravadas nela, "este rio guiará você à verdade" ecoam em sua mente...</p>
+            <button class="btn-proximo" data-proximo="7">entar no barco.</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>O rio à esquerda leva você a uma cachoeira escondida, onde o cavalo, com um relincho urgente, parece reconhecer as incrições antigas que revelam 
+                verdade.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cachoeira</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>O rio à direita termina em uma área pantanosa. Apesar de belas vistas, não há sinais da verdade aqui.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro rio</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-fim-da-verdade.webp" alt="encontrando um lar de muitos segredos">
+            <p>O barco desliza suavemente pelo rio, iluminado pelos últimos raios de sol, enquanto um cavalo o acompanha pela margem. A cachoeira distante se torna apenas memória, e o céu é pintado por tons vibrantes do pôr do sol. Conforme o rio se estreita, surge uma clareira banhada por uma luz dourada e suave.
+
+                Ao atracar, você avista uma grande pedra branca coberta de musgo, irradiando uma luz verde. Ao tocá-la, uma luz intensa emerge, e o cavalo na margem relincha, envolto por uma aura dourada. A pedra treme, e uma visão revela que o cavalo é um guardião ancestral, um ser que controla elementos e abre portais entre mundos. Ele esteve guiando você até esse momento crucial.
+                
+                Transformado, o cavalo se aproxima, seus olhos brilhando como ouro. Uma voz ecoa em sua mente: "Agora o poder é seu. O que fará com ele?" O destino está em suas mãos, enquanto o sol se põe atrás de você.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo o rio à esquerda, você finalmente encontra a cachoeira escondida e as inscrições
+                que revelam a verdade sobre o cavalo, os desafios que ele enfrenta e os segredos que deve manter ocultos.</p>
+            <button class="btn-proximo" data-proximo="11">E aí, preparado para dar vida ás suas próprias imaginações? O final está em suas mãos</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html
